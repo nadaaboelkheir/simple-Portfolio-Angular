@@ -1,0 +1,52 @@
+<h1 class="mt-5 mx-5" style="text-align: left">Projects</h1>
+
+<div
+  class="text-dark d-flex align-items-center justify-content-center bg-light py-5"
+>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+      <div class="col">
+        <div
+          class="card bg-gray card-shadow text-center mb-3"
+          style="width: 80%"
+        >
+          <div class="card-body card-height">
+            <h5 class="card-title border-bottom border-white pb-3">
+              {{ project1.name}}
+            </h5>
+            <a [href]="project1.url" class="btn btn-primary">Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div
+          class="card bg-gray card-shadow text-center mb-3"
+          style="width: 80%"
+        >
+          <div
+            class="card-body card-height"
+            style="background-color: black; color: aliceblue"
+          >
+            <h5 class="card-title border-bottom border-white pb-3">
+              {{ project2.name }}
+            </h5>
+            <a [href]="project2.url" class="btn btn-primary">Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div
+          class="card bg-gray card-shadow text-center mb-3"
+          style="width: 80%"
+        >
+          <div class="card-body card-height">
+            <h5 class="card-title border-bottom border-white pb-3">
+              {{ project3.name }}
+            </h5>
+            <a [href]="project3.url" class="btn btn-primary">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

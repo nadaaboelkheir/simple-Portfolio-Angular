@@ -1,0 +1,16 @@
+.card-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.bg-gray {
+  background-color: #f8f9fa; /* Light gray background */
+}
+.card-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px; 
+  overflow: hidden; 
+  background:gray;
+  color: white;
+}
